@@ -1,0 +1,256 @@
+[
+  {
+    "description": "  As a user\n  I want to log in to the application \n  so that I can access my account dashboard",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;successful-login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Successful login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 870599
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2653800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "the user navigates to the facebook page",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1034699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I will validate the title of the page",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 431399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I enter the username as \"test_user\"",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 983599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I enter the password as \"test_password\"",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 428100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click on the login button",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 417300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 474899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1015499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 5
+          },
+          {
+            "name": "@login",
+            "line": 5
+          },
+          {
+            "name": "@sanity",
+            "line": 15
+          },
+          {
+            "name": "@positive",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;successful-login-with-different-credentials",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Successful login with different credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 17835299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "the user navigates to the facebook page",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 685800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I will validate the title of the page",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 831799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I enter the username as \"test_user1\"",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 968899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I enter the password as \"test_password1\"",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 947000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I click on the login button",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 760400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8081200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 5
+          },
+          {
+            "name": "@login",
+            "line": 5
+          },
+          {
+            "name": "@regression",
+            "line": 21
+          },
+          {
+            "name": "@negative",
+            "line": 21
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 6,
+    "keyword": "Feature",
+    "name": "Login Functionality",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 5
+      },
+      {
+        "name": "@login",
+        "line": 5
+      }
+    ],
+    "uri": "features\\login.feature"
+  }
+]

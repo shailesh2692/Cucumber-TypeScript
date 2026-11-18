@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "cucumber_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js features/login.feature",
+    "report": "ts-node generate_report.ts",
+    "test:report": "npm run test && npm run report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "cucumber-html-reporter": "^7.2.0",
+    "multiple-cucumber-html-reporter": "^3.9.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
